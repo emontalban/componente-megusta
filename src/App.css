@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+
+  width: 50vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+.fila {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* separación entre corazón y contador */
+  margin-top: 20px;
+}
+
+.corazon {
+  font-size: 40px;
+  user-select: none;
+  transition: transform 0.1s ease;
+  cursor: pointer; /* tamaño del corazón */
+}
+
+.corazon:active {
+  transform: scale(0.8); /* se encoge un poco */
+}
+.numeroLikes{
+  margin-left: 8px;
+  color: aliceblue;
+
+}
+
+
+
+
+
